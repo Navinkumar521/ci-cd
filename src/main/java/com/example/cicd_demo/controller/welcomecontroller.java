@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class welcomecontroller {
 	@GetMapping
 	public ResponseEntity<String> welcome(){
-		return ResponseEntity.ok("Welcome to the cicd paga...... my name is navin ");
+		return ResponseEntity.ok("Welcome to the cicd paga...... my name is navin CI/cd test ");
 	}
 	@GetMapping
 	@RequestMapping("/test")
